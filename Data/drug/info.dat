@@ -1,0 +1,21 @@
+node.dat
+
+TYPE	MEANING
+0		drug
+1		se
+
+Attribute Dimension: 4900
+
+-----------------------------------------------
+
+link.dat
+
+LINK	START	END	MEANING
+0		0		0	drug-drug
+1		0		1	drug-se
+2		1		0	se-drug
+3		1		1	se-se
+
+Targeting: Link Type (0,0,0)
+
+-----------------------------------------------
