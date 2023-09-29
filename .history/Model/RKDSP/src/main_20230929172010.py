@@ -526,8 +526,9 @@ def main():
 
     model = model.train()
     
+
     positive_sample = Count_Value_1(drug_se, 5)
-    negative_sample, all_negative_sample = Count_Value_0(drug_se, 5)
+    negative_sample, all_negative_sample = Count_Value_0(lnc_dis, 5)
 
     Coordinate_Matrix_Train, Coordinate_Matrix_Test, train_1 = Make_Train_Test_Set(positive_sample, negative_sample,
                                                                                     all_negative_sample)
