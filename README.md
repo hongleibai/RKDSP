@@ -1,4 +1,5 @@
 # RKDSP
+<<<<<<< HEAD
 ## Data ##
 Data composition: Similarity_Matrix_Drugs.txt in the folder Model/RKDSP/data/drug is the drug-drug similarity matrix based on chemical substructure. drug_drug_sim_dis.txt is the drug-drug similarity matrix based on associated diseases. mat_drug_se .txt is the drug-side effect association matrix. se_se_sim.txt is the side effect similarity matrix. The drug and side effect name files are saved in the Data folder and named drugname.txt and se.txt respectively.
 
@@ -11,3 +12,6 @@ We first used RKDSP/Process/drug_se_process.py to construct a drug-side effect h
 Run Model/RKDSP/src/main.py to load the preprocessed semantic subgraphs and perform training and testing. Model details are saved in the file Model/RKDSP/src/model.py
 ## Results ##
 We applied the trained RKDSP model to obtain the top 30 candidate side effects for each drug. The results were saved as ST3.xls.
+=======
+
+>>>>>>> a3d9c6b7140e80a9228735a2b43e4997aa208362
